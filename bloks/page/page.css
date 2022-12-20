@@ -1,0 +1,35 @@
+/** {
+  border: 1px solid blue;
+}*/
+
+.page {
+  margin: 0 auto;
+  max-width: 1280px;
+  background: #2A2C2F;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .page {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    width: 100%;
+  }
+}

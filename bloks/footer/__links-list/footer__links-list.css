@@ -1,0 +1,10 @@
+.footer__links-list {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 320px) {
+  .footer__links-list {
+   margin-bottom: 32px;
+  }
+}
