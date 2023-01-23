@@ -1,6 +1,7 @@
 .cover__link {
   background-image: url(../../../images/cover-trains.jpg);
   background-size:cover;
+  background-position: center;
   width: 100%;
   min-height: 740px;
   text-decoration: none;
@@ -50,5 +51,4 @@
   transition: opacity 0.01s linear;
   opacity: .8;
   background: rgb(42, 44, 47);
-  transition: 2;
 }
