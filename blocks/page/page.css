@@ -1,3 +1,7 @@
+* {
+  border: solid 1px blue;
+}
+
 .page {
   margin: 0 auto;
   max-width: 1280px;
