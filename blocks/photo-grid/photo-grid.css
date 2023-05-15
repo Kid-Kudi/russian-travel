@@ -1,6 +1,4 @@
 .photo-grid {
-  padding-left: 48px;
-  padding-right: 48px;
   box-sizing: border-box;
   width: 100%;
   margin: 0 auto;
@@ -12,6 +10,7 @@
 
 @media screen and (max-width: 1024px) {
   .photo-grid {
+    width: calc(100% - 48px * 2);
     grid-template-columns: repeat(3, 1fr);
     gap: 14px
   }
@@ -21,8 +20,7 @@
   .photo-grid {
     gap: 16px;
     grid-template-columns: repeat(2, 1fr);
-    padding-left: 24px;
-    padding-right: 24px;
+    width: calc(100% - 24px * 2);
   }
 }
 
@@ -30,7 +28,6 @@
   .photo-grid {
     gap: 12px;
     grid-template-columns: 1fr;
-    padding-left: 16px;
-    padding-right: 16px;
+    width: calc(100% - 16px * 2);
   }
 }
